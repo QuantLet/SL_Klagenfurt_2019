@@ -1,0 +1,21 @@
+Name of Quantlet: SL_20190404_Wordcloud
+ 
+Published in: Statistical Learning Class (AAU Klagenfurt 2019)
+  
+Description: Creates a word cloud for one of the three given texts (an Austrian novel - "Der Mann ohne Eigenschaften" by Robert Musil, a songtext - "99 Luftballons" by Nena or a poem - "Gemeinsam" by Hanna Schnyders) in the shape of a man with hat, a balloon or a star. A word cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance.
+
+Keywords: Wordcloud, nltk, stopwords, mask, numpy, Python, text data, frequency, data visualization, natural language processing
+     
+Author: Anna Pacher, Patrick Plum, Kathrin Spendier
+
+See also:     
+  
+Submitted:         
+  
+Datafile:          
+  
+Input:  
+  
+Output:  
+  
+Example:  
