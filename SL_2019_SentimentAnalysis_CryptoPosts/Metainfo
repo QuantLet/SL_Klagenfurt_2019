@@ -1,0 +1,21 @@
+Name of Quantlet: SL_2019_SentimentAnalysis_CryptoPosts
+ 
+Published in: Statistical Learning Class (AAU Klagenfurt 2019)
+  
+Description: Creates a sentiment analysis of posts related to crypto currencies. The data for the analysis is taken from a crypto currency forum and is from the years 2013 to 2019. For the analysis the vader package is used.
+
+Keywords: Sentiment Analysis, vader, textblob, Python, text data, data visualization, crypto currencies, wordcloud
+     
+Author: Anna Pacher, Kathrin Spendier
+
+See also:     
+  
+Submitted:         
+  
+Datafile:          
+  
+Input:  
+  
+Output:  
+  
+Example:  
