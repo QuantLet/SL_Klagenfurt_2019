@@ -1,4 +1,4 @@
-Name of QuantLet : Baumprojekt
+Name of QuantLet : BaumProjekt
 
 Published in : 'Trees'
 
