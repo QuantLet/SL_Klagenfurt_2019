@@ -1,0 +1,21 @@
+Name of Quantlet: CRIX_Rebalancing_Analysis
+ 
+Published in: Statistical Learning Class (AAU Klagenfurt 2019)
+  
+Description: 'An Analysis of CRX daily log returns - are there higher returns at lower risk on index rebalancing days.'
+ 
+Keywords: CRIX, non-parametric tests, daily logreturns, normality, t-test
+
+See also:   
+
+Author: Patrick Plum
+  
+Submitted:  6.6.2019       
+  
+Datafile:  crypto_daily.csv, index_members.csv, crix1.json
+  
+Input: Dollar.png
+  
+Output: Wordcloud_CRIX_Frequency.png, Nr_of_Cryptos.png, DailyLogReturns.png, QQPlot_first.png, QQplot_others.png
+  
+Example:  
