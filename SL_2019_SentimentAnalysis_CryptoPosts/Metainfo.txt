@@ -7,15 +7,3 @@ Description: Creates a sentiment analysis of posts related to crypto currencies.
 Keywords: Sentiment Analysis, vader, textblob, Python, text data, data visualization, crypto currencies, wordcloud
      
 Author: Anna Pacher, Kathrin Spendier
-
-See also:     
-  
-Submitted:         
-  
-Datafile:          
-  
-Input:  
-  
-Output:  
-  
-Example:  
