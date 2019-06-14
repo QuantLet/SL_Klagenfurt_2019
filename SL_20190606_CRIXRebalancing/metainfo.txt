@@ -6,11 +6,11 @@ Description: 'An Analysis of CRX daily log returns - are there higher returns at
  
 Keywords: CRIX, non-parametric tests, daily logreturns, normality, t-test
 
-See also:   
+See also: https://www.icloud.com/keynote/0YRKCRJ3rY6lZdrj_scHZCD0A#20190528_An_Analysis_of_CRIX_daily_returns        
 
 Author: Patrick Plum
   
-Submitted:  6.6.2019       
+Submitted:  28.5.2019       
   
 Datafile:  crypto_daily.csv, index_members.csv, crix1.json
   

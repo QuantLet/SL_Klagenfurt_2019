@@ -60,22 +60,13 @@ plt.xticks(np.arange(-6, 7, 2))
 plt.yticks(np.arange(-6, 7, 2))
 plt.ylim(-7,7)
 plt.xlim(-7,7)
-plt.ylim()
+plt.grid(b=True, which='major', color='#666666', linestyle='-')
+ax=plt.gca()
+ax.set_facecolor('white')
 plt.gcf()
 fig.tight_layout()
 plt.savefig('QQPlots.png')
 
-
-
-
-plt.xlim((-3,3))
-plt.ylim((-3,3))
-fig2=sp.qqplot(logreturn_at_first, line='45',fit='TRUE',color='green')
-plt.axis('scaled')
-plt.xticks(np.arange(-4, 4, 2))
-plt.yticks(np.arange(-4, 4, 2))
-plt.show()
-plt.savefig('QQPlot_first.png')
 
 
 # Shapiro Wilk's test
