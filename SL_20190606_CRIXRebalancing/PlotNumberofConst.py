@@ -26,12 +26,16 @@ for i in dates_of_first:
     n.append(len(crix_constituents.loc[i]))
 
 #plotting number of constituents over time
-fig=plt.figure(figsize=(12,3))
+fig=plt.figure(figsize=(18,12))
 axes=fig.add_axes([0.1,0.1,0.8,0.8])
+axes.tick_params(axis='both', which='major', labelsize=20)
+axes.set_aspect(aspect=9)
 x=dates_of_first
 y=n
-axes.plot(x,y,'g+',mew=3,ms=10)
-plt.xticks(dates_of_ind_rebalance)
+axes.plot(x,y,'go',mew=3,ms=15)
+plt.grid(b='TRUE', which='both', axis='x', color='#666666', linestyle='-',alpha=0.7)
+axes.set_facecolor('white')
+plt.xticks(dates_of_ind_rebalance[:-1])
 myFmt = mdates.DateFormatter('%Y-%m-%d')
 axes.xaxis.set_major_formatter(myFmt)
 fig.autofmt_xdate()
