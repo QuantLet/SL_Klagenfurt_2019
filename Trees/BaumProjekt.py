@@ -34,10 +34,10 @@ baum.info()
 genus = baum[baum.Gattung == 'Populus']
 #genus = baum[baum.Gattung == 'Tilia']
 
-print set(genus.Art)
+print(set(genus.Art))
 
 #Recoding species to numbers- 
-genus_Art = range(len(genus.Art))
+genus_Art = list(range(len(genus.Art)))
 for i in genus_Art:
     for j in range(0,len(set(genus.Art))):
         if genus.Art.iloc[i] == list(set(genus.Art))[j]:
@@ -224,7 +224,7 @@ min_sample_class = min([sum(y_train==i) for i in set(y_train)])
 res = []
 
 if min_sample_class <= 1:
-    print 'A training set has maximally one sample.'
+    print('A training set has maximally one sample.')
 else:
     for i in range(1,min_sample_class):
         rf.min_samples_leaf = i
