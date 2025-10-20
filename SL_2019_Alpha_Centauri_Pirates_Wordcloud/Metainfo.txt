@@ -2,10 +2,12 @@ Name of Quantlet: 	SL_2019_alpha_centauri_pirates_wordcloud
 
 Published in:      	Statistical Learning Class (AAU Klagenfurt 2019)
 
-Description:		Creates a word cloud picture of frequently used words in Robert L. Stevenson's Treasure 				Island. Based on another piece of python code by verani. Then creates another word clud 			picture of frequently used words in the blurbs of the 1999 video game 'Alpha Centauri'.
+Description:		Creates a word cloud picture of frequently used words in Robert L. Stevenson's Treasure Island. Based on another piece of python code by verani. Then creates another word clud picture of frequently used words in the blurbs of the 1999 video game 'Alpha Centauri'.
 	
-Keywords:		LDA, word cloud, topic modelling, pirates, word frequency, treasure island, Alpha 					Centauri, Stars
+Keywords:		LDA, word cloud, topic modelling, pirates, word frequency, treasure island, Alpha Centauri, Stars
 
 See also: 		LDA-DTM_Christmas_Songs
 
-Author:			Miriam Köberl, Philipp Schneider
+Author:			Miriam KÃ¶berl, Philipp Schneider
+
+Submitted: 11.06.2019
